@@ -1,0 +1,27 @@
+{"properties": [
+  {
+    "name": "random.int",
+    "type": "java.lang.String",
+    "description": "A description for 'random.int'"
+  },
+  {
+    "name": "random.string",
+    "type": "java.lang.String",
+    "description": "A description for 'random.string'"
+  },
+  {
+    "name": "ad.name",
+    "type": "java.lang.String",
+    "description": "A description for 'ad.name'"
+  },
+  {
+    "name": "ad.desc",
+    "type": "java.lang.String",
+    "description": "A description for 'ad.desc'"
+  },
+  {
+    "name": "random.long",
+    "type": "java.lang.String",
+    "description": "A description for 'random.long'"
+  }
+]}

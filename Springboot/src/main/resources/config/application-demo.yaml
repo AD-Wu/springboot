@@ -1,0 +1,19 @@
+#yaml配置文件
+#优点：简洁大方
+#缺点：无法使用注解，不方便
+
+random: 
+  string: ${random.value}
+  int: ${random.int}
+
+ad: 
+  name: AD
+  desc: ${ad.name} is a boy
+
+server: 
+  port: 8080
+
+spring: 
+  jackson: 
+    date-format: yyyy-MM-dd HH:mm:ss SSS
+    time-zone: Asia/Chongqing
