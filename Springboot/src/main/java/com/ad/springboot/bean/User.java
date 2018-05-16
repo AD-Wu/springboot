@@ -3,6 +3,7 @@ package com.ad.springboot.bean;
 import java.util.Date;
 
 public class User {
+	private int id;
 	private final String name;
 	private final int age;
 	private final Date birthday;
@@ -42,6 +43,9 @@ public class User {
 	}
 
 	// 必须提供所有属性的get方法，否则无法获取数据，无法将数据自动转换为Json数据
+	public int getId() {
+		return id;
+	}
 	public String getName() {
 		return name;
 	}
